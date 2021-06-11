@@ -1,0 +1,13 @@
+regisztráció: az alkalmazásba be lehet regisztrálni, név, emailcím és jelszó megadásával
+bejelentkezés: az alkalmazásba be lehet jelentkezni egy meglévő felhasználói fiókkal
+
+kijelentkezés: az alkalmazásból ki lehet jelentkezni a bejelentkezett felhasználóval
+
+új hozzászólás létrehozása: az alkalmazásban létre lehet hozni új hozzászólást
+hozzászólás szerkesztése: az alkalmazásban lehet szerkeszteni a bejelentkezett felhasználó hozzászólását
+hozzászólás törlése: az alkalmazásban lehet törölni a bejelentkezett felhasználó hozzászólását
+hozzászólás kedvelése: az alkalmazásban lehet kedvelni egy kiválasztott hozzászólást
+hozzászólások közötti lapozás: az alkalmazásban a több oldalon megjelenő hozzászólások között lehet lapozni
+hozzászólásokra reagálás: az alkalmazásban lehet reagálni az egyes hozzászólásokra
+
+felhasználó fiókjának szerkesztése: az alkalmazásban lehet szerkeszteni a bejelentkezett felhasználó fiókját
