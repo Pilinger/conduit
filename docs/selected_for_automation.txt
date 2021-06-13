@@ -1,0 +1,10 @@
+A001, CON_TC_002_login, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A002, CON_TC_003_logout, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A003, CON_TC_004_follow, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A004, CON_TC_005_post, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A005, CON_TC_006_view, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A006, CON_TC_007_edit, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A007, CON_TC_008_delete, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A008, CON_TC_009_favorite, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A009, CON_TC_010_tags, felület automatizálás, mert ismételt végrehajtást tartalmaz
+A010, CON_TC_001_registration, nem automatizálható, mert egy végrehajtás után változtatni kellene az adatokat
