@@ -16,7 +16,11 @@ jobs:
     - run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
         echo "Tags: ${{ github.event.inputs.tags }}"
-
+  
+  SeleniumIDE:
+    runs-on: ubuntu-latest
+    steps:
+    
     - name: install Nodejs
       uses: actions/setup-node@v2
       with:
