@@ -3,6 +3,7 @@ import pytest
 import time
 # preparing selenium and chrome web driver manager
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 # importing web driver waiting components
 from selenium.webdriver.common.by import By
@@ -16,7 +17,10 @@ import os
 # initialising driver
 @pytest.fixture(scope='session')
 def browser():
-    driver = webdriver.Chrome(ChromeDriverManager().install())
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     os.system('docker-compose up -d')
     driver.get("http://localhost:1667/#/")
     return driver
