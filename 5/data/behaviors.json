@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "test_decline_cookies",
+    "uid" : "97debfaf7482c422",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1627075131682,
+      "stop" : 1627075132806,
+      "duration" : 1124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logging_in",
+    "uid" : "e31eedca0f2ad388",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1627075132907,
+      "stop" : 1627075144178,
+      "duration" : 11271
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_reg",
+    "uid" : "8b9129eaa00c0080",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1627075146884,
+      "stop" : 1627075154617,
+      "duration" : 7733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
