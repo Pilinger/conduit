@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 0 > 0\n +  where 0 = len([])",
+      "children" : [ {
+        "name" : "test_decline_cookies",
+        "uid" : "ff6a6aea9da4298f",
+        "parentUid" : "b2d16733366004f80e30f407f1a4d6a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627159527838,
+          "stop" : 1627159528936,
+          "duration" : 1098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2d16733366004f80e30f407f1a4d6a8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_logging_in",
+        "uid" : "8cec9c07841c692b",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627159529034,
+          "stop" : 1627159540238,
+          "duration" : 11204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[4]/a\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "children" : [ {
+        "name" : "test_reg",
+        "uid" : "6bc0797d281462ba",
+        "parentUid" : "08d3dc4261c78abbfae795caa9cc3d78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627159542079,
+          "stop" : 1627159549536,
+          "duration" : 7457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08d3dc4261c78abbfae795caa9cc3d78"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
