@@ -21,7 +21,7 @@ def browser():
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-    os.system('docker-compose up -d')
+    # os.system('docker-compose up -d')
     driver.get("http://localhost:1667/#/")
     return driver
 
