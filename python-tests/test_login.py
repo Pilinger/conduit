@@ -18,8 +18,8 @@ import os
 @pytest.fixture(scope='session')
 def browser_driver():
     options = Options()
-    options.add_argument('--headless')
-    options.add_argument('--disable-gpu')
+    # options.add_argument('--headless')
+    # options.add_argument('--disable-gpu')
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     # os.system('docker-compose up -d')
     driver.get("http://localhost:1667/#/")
@@ -30,8 +30,11 @@ def browser_driver():
 def test_decline_cookies(browser_driver):
     time.sleep(1)
     decline_xpath = '//div[@class="cookie__bar__buttons"]/button'
+    """Wait or no
     decline_buttons = WebDriverWait(browser_driver,
                                     20).until(EC.visibility_of_any_elements_located((By.XPATH, decline_xpath)))
+    """
+    decline_buttons = browser_driver.find_elements_by_xpath(decline_xpath)
     assert (len(decline_buttons) > 0)
     decline_buttons[0].click()
     time.sleep(1)
@@ -50,8 +53,10 @@ def test_logging_in(browser_driver):
     user_name = 'testuser1'
     password_str = 'Abcd123$'
     email_end = '@example.com'
-
+    """Wait or no
     login = WebDriverWait(browser_driver, 20).until(EC.visibility_of_element_located((By.XPATH, login_xpath)))
+    """
+    login = browser_driver.find_element_by_xpath(login_xpath)
     login.click()
     time.sleep(1)
     browser_driver.find_element_by_xpath(email_xpath).send_keys(f'{user_name}{email_end}')
