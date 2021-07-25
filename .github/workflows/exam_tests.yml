@@ -37,7 +37,7 @@ jobs:
         
       - name: Test with pytest
         run: |
-          pytest --alluredir=allure-results
+          pytest --alluredir=allure-results --fixtures --fixtures-per-test
           
       - name: Get Allure History
         uses: actions/checkout@v2
