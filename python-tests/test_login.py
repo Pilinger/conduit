@@ -30,7 +30,8 @@ def browser_driver():
 def test_decline_cookies(browser_driver):
     time.sleep(1)
     decline_xpath = '//div[@class="cookie__bar__buttons"]/button'
-    decline_buttons = browser_driver.find_elements_by_xpath(decline_xpath)
+    decline_buttons = WebDriverWait(browser_driver,
+                                    10).until(EC.visibility_of_any_elements_located((By.XPATH, decline_xpath)))
     assert (len(decline_buttons) > 0)
     decline_buttons[0].click()
     time.sleep(1)
