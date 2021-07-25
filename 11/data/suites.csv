@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Jul 25 06:27:03 GMT 2021","Sun Jul 25 06:27:14 GMT 2021","11162","python-tests","test_login","","","","test_logging_in",""
+"failed","Sun Jul 25 06:27:02 GMT 2021","Sun Jul 25 06:27:03 GMT 2021","1018","python-tests","test_login","","","","test_decline_cookies",""
+"passed","Sun Jul 25 06:27:15 GMT 2021","Sun Jul 25 06:27:23 GMT 2021","7428","python-tests","test_registration","","","","test_reg",""
