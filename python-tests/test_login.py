@@ -31,7 +31,7 @@ def test_decline_cookies(browser_driver):
     time.sleep(1)
     decline_xpath = '//div[@class="cookie__bar__buttons"]/button'
     decline_buttons = WebDriverWait(browser_driver,
-                                    10).until(EC.visibility_of_any_elements_located((By.XPATH, decline_xpath)))
+                                    20).until(EC.visibility_of_any_elements_located((By.XPATH, decline_xpath)))
     assert (len(decline_buttons) > 0)
     decline_buttons[0].click()
     time.sleep(1)
@@ -51,7 +51,7 @@ def test_logging_in(browser_driver):
     password_str = 'Abcd123$'
     email_end = '@example.com'
 
-    login = WebDriverWait(browser_driver, 10).until(EC.visibility_of_element_located((By.XPATH, login_xpath)))
+    login = WebDriverWait(browser_driver, 20).until(EC.visibility_of_element_located((By.XPATH, login_xpath)))
     login.click()
     time.sleep(1)
     browser_driver.find_element_by_xpath(email_xpath).send_keys(f'{user_name}{email_end}')
