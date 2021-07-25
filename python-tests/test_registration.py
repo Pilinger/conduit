@@ -15,7 +15,7 @@ import os
 
 # initialising driver
 @pytest.fixture(scope='session')
-def browser():
+def browser_driver():
     options = Options()
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
@@ -26,20 +26,27 @@ def browser():
 
 
 # CON_TC_001_registration
-def test_reg(browser):
+def test_reg(browser_driver):
     time.sleep(1)
-    sign_up = WebDriverWait(browser, 10).until(EC.visibility_of_element_located((By.XPATH, '//a[@href="#/register"]')))
+    register_xpath = '//a[@href="#/register"]'
+    user_xpath = '//input[@placeholder="Username"]'
+    user_li_xpath = '//*[@id="app"]/nav/div/ul/li[4]/a'
+    email_xpath = '//input[@placeholder="Email"]'
+    password_xpath = '//input[@placeholder="Password"]'
+    user_name = 'testuser66'
+    password_str = 'Abcd123$'
+    email_end = '@example.com'
+    sign_up = WebDriverWait(browser_driver, 10).until(EC.visibility_of_element_located((By.XPATH, register_xpath)))
     sign_up.click()
     time.sleep(1)
-    user = WebDriverWait(browser, 10).until(EC.visibility_of_element_located((By.XPATH,
-                                                                              '//input[@placeholder="Username"]')))
-    user.send_keys('testuser66')
+    user = WebDriverWait(browser_driver, 10).until(EC.visibility_of_element_located((By.XPATH, user_xpath)))
+    user.send_keys(user_name)
     time.sleep(1)
-    browser.find_element_by_xpath('//input[@placeholder="Email"]').send_keys("testuser66@example.com")
+    browser_driver.find_element_by_xpath(email_xpath).send_keys(f"{user_name}{email_end}")
     time.sleep(1)
-    browser.find_element_by_xpath('//input[@placeholder="Password"]').send_keys('Abcd123$')
+    browser_driver.find_element_by_xpath(password_xpath).send_keys(password_str)
     time.sleep(1)
-    browser.find_element_by_xpath('//form/button').click()
+    browser_driver.find_element_by_xpath('//form/button').click()
     time.sleep(2)
-    username = browser.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[4]/a').text
-    assert (username == 'testuser66')
+    username = browser_driver.find_element_by_xpath(user_li_xpath).text
+    assert (username == user_name)
