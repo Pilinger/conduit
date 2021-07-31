@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jul 31 20:24:45 GMT 2021","Sat Jul 31 20:24:47 GMT 2021","2125","python-tests","test_login","","","","test_decline_cookies",""
+"passed","Sat Jul 31 20:24:58 GMT 2021","Sat Jul 31 20:25:05 GMT 2021","7434","python-tests","test_registration","","","","test_reg",""
+"passed","Sat Jul 31 20:24:53 GMT 2021","Sat Jul 31 20:24:55 GMT 2021","2100","python-tests","test_login","","","","test_paginate",""
+"broken","Sat Jul 31 20:24:55 GMT 2021","Sat Jul 31 20:24:56 GMT 2021","1068","python-tests","test_login","","","","test_new_article",""
+"passed","Sat Jul 31 20:24:47 GMT 2021","Sat Jul 31 20:24:53 GMT 2021","6430","python-tests","test_login","","","","test_logging_in",""
