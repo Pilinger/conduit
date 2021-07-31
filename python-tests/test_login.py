@@ -76,3 +76,42 @@ def test_paginate(browser_driver):
     for link in paginate_links:
         link.click()
         time.sleep(1)
+
+
+# CON_TC_005_post
+# posting a New Article, and testing if it appears
+def test_new_article(browser_driver):
+    # data for posting
+    article_title_str = 'This is a test article.'
+    article_about_str = 'This is about to test the posting method.'
+    article_markdown_str = "I'm about to test the posting method of the conduit site."
+    article_tags_str = 'test,post'
+    # clicking the New Article button
+    new_article_xpath = '//a[@href="#/editor"]'
+    browser_driver.find_element_by_xpath(new_article_xpath).click()
+    time.sleep(1)
+    # gathering the inputs and buttons
+    title_input = browser_driver.find_element_by_class_name('form-control form-control-lg')
+    about_input = browser_driver.find_element_by_xpath('//input[@class="form-control"]')
+    text_input = browser_driver.find_element_by_xpath('//textarea')
+    tags_input = browser_driver.find_element_by_class_name('ti-new-tag-input ti-valid')
+    publish_article_button = browser_driver.find_element_by_tag_name('button')
+
+    # assigning values to the inputs, and publishing the Article
+    title_input.send_keys(article_title_str)
+    time.sleep(1)
+    about_input.send_keys(article_about_str)
+    time.sleep(1)
+    text_input.send_keys(article_markdown_str)
+    time.sleep(1)
+    tags_input.send_keys(article_tags_str)
+    time.sleep(1)
+    publish_article_button.click()
+    time.sleep(1)
+
+    # checking the strings to a newly posted Article
+    assert (article_title_str == browser_driver.find_element_by_tag_name('h1'))
+    assert (article_markdown_str == browser_driver.find_element_by_tag_name('p'))
+    tags = browser_driver.find_elements_by_class_name('tag-pill tag-default')
+    assert (tags[0].text == 'test')
+    assert (tags[1].text == 'post')
