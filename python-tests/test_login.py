@@ -93,7 +93,7 @@ def test_new_article(browser_driver):
     # gathering the inputs and buttons
     input_class_name = 'form-control form-control-lg'
     title_input = WebDriverWait(browser_driver,
-                                12).until(EC.visibility_of_element_located((By.CLASS_NAME, input_class_name)))
+                                24).until(EC.visibility_of_element_located((By.CLASS_NAME, input_class_name)))
     about_input = browser_driver.find_element_by_xpath('//input[@class="form-control"]')
     text_input = browser_driver.find_element_by_xpath('//textarea')
     tags_input = browser_driver.find_element_by_class_name('ti-new-tag-input ti-valid')
