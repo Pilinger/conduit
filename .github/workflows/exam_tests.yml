@@ -31,8 +31,8 @@ jobs:
       - name: Starting Docker
         run: docker-compose up -d
       
-      - name: Sleep for 45 seconds to start Docker
-        run: sleep 45s
+      - name: Sleep for 84 seconds to start Docker
+        run: sleep 84s
         shell: bash
         
       - name: Test with pytest
