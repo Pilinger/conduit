@@ -30,11 +30,10 @@ def browser_driver():
 def test_decline_cookies(browser_driver):
     time.sleep(1)
     decline_xpath = '//div[@class="cookie__bar__buttons"]/button'
-    """Wait or no
+    """Wait or no"""
     decline_buttons = WebDriverWait(browser_driver,
-                                    20).until(EC.visibility_of_any_elements_located((By.XPATH, decline_xpath)))
-    """
-    decline_buttons = browser_driver.find_elements_by_xpath(decline_xpath)
+                                    10).until(EC.visibility_of_any_elements_located((By.XPATH, decline_xpath)))
+    # decline_buttons = browser_driver.find_elements_by_xpath(decline_xpath)
     assert (len(decline_buttons) > 0)
     decline_buttons[0].click()
     time.sleep(1)
@@ -46,6 +45,7 @@ def test_decline_cookies(browser_driver):
 # logging in and testing if the username appears correctly
 def test_logging_in(browser_driver):
     time.sleep(1)
+    # assigning xpath strings, and test strings
     login_xpath = '//a[@href="#/login"]'
     email_xpath = '//input[@placeholder="Email"]'
     password_xpath = '//input[@placeholder="Password"]'
@@ -53,10 +53,9 @@ def test_logging_in(browser_driver):
     user_name = 'testuser1'
     password_str = 'Abcd123$'
     email_end = '@example.com'
-    """Wait or no
-    login = WebDriverWait(browser_driver, 20).until(EC.visibility_of_element_located((By.XPATH, login_xpath)))
-    """
-    login = browser_driver.find_element_by_xpath(login_xpath)
+    """Wait or no"""
+    login = WebDriverWait(browser_driver, 10).until(EC.visibility_of_element_located((By.XPATH, login_xpath)))
+    # login = browser_driver.find_element_by_xpath(login_xpath)
     login.click()
     time.sleep(1)
     browser_driver.find_element_by_xpath(email_xpath).send_keys(f'{user_name}{email_end}')
@@ -67,3 +66,13 @@ def test_logging_in(browser_driver):
     time.sleep(2)
     username = browser_driver.find_element_by_xpath(user_li_xpath).text
     assert (username == user_name)
+
+
+# paginating through the pages, and testing if its possible
+def test_paginate(browser_driver):
+    # collecting the clickable pagination links
+    paginate_links = browser_driver.find_elements_by_xpath('//ul[@class="pagination"]/li/a')
+    assert (len(paginate_links) > 0)
+    for link in paginate_links:
+        link.click()
+        time.sleep(1)
