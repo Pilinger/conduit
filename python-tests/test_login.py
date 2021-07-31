@@ -89,7 +89,7 @@ def test_new_article(browser_driver):
     # clicking the New Article button
     new_article_xpath = '//a[@href="#/editor"]'
     browser_driver.find_element_by_xpath(new_article_xpath).click()
-    time.sleep(1)
+    time.sleep(5)
     # gathering the inputs and buttons
     title_input = browser_driver.find_element_by_class_name('form-control form-control-lg')
     about_input = browser_driver.find_element_by_xpath('//input[@class="form-control"]')
