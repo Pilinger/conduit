@@ -5,5 +5,5 @@ src/
 src/public/js/app.js
 src/node_modules
 src/deno_dir
-
 /src/
+python-tests/__pycache__/
