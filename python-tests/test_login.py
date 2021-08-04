@@ -91,12 +91,10 @@ def test_new_article(browser_driver):
     browser_driver.find_element_by_xpath(new_article_xpath).click()
     time.sleep(5)
     # gathering the inputs and buttons
-    input_class_name = 'form-control form-control-lg'
-    title_input = WebDriverWait(browser_driver,
-                                24).until(EC.visibility_of_element_located((By.CLASS_NAME, input_class_name)))
+    title_input = browser_driver.find_element_by_xpath('//input[@class="form-control form-control-lg"]')
     about_input = browser_driver.find_element_by_xpath('//input[@class="form-control"]')
     text_input = browser_driver.find_element_by_xpath('//textarea')
-    tags_input = browser_driver.find_element_by_class_name('ti-new-tag-input ti-valid')
+    tags_input = browser_driver.find_element_by_xpath('//input[@class="ti-new-tag-input ti-valid"]')
     publish_article_button = browser_driver.find_element_by_tag_name('button')
 
     # assigning values to the inputs, and publishing the Article
@@ -112,8 +110,8 @@ def test_new_article(browser_driver):
     time.sleep(1)
 
     # checking the strings to a newly posted Article
-    assert (article_title_str == browser_driver.find_element_by_tag_name('h1'))
-    assert (article_markdown_str == browser_driver.find_element_by_tag_name('p'))
-    tags = browser_driver.find_elements_by_class_name('tag-pill tag-default')
+    assert (article_title_str == browser_driver.find_element_by_tag_name('h1').text)
+    assert (article_markdown_str == browser_driver.find_element_by_tag_name('p').text)
+    tags = browser_driver.find_elements_by_xpath('//a[@class="tag-pill tag-default"]')
     assert (tags[0].text == 'test')
     assert (tags[1].text == 'post')
