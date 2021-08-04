@@ -1,0 +1,82 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "python-tests",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "test_decline_cookies",
+        "uid" : "ca818a5cda3a23de",
+        "parentUid" : "c498be936da9a72427e0628a7983f160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628107919754,
+          "stop" : 1628107921899,
+          "duration" : 2145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_logging_in",
+        "uid" : "c137554420103679",
+        "parentUid" : "c498be936da9a72427e0628a7983f160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628107921902,
+          "stop" : 1628107928317,
+          "duration" : 6415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_paginate",
+        "uid" : "4bf11e12dd5ea7f3",
+        "parentUid" : "c498be936da9a72427e0628a7983f160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628107928319,
+          "stop" : 1628107930398,
+          "duration" : 2079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_new_article",
+        "uid" : "9b0dafef5e71efcc",
+        "parentUid" : "c498be936da9a72427e0628a7983f160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628107930400,
+          "stop" : 1628107940959,
+          "duration" : 10559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c498be936da9a72427e0628a7983f160"
+    }, {
+      "name" : "test_registration",
+      "children" : [ {
+        "name" : "test_reg",
+        "uid" : "693aba726d758a08",
+        "parentUid" : "581b9315197dc9affedd8b36523dbfe2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628107942414,
+          "stop" : 1628107949774,
+          "duration" : 7360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "581b9315197dc9affedd8b36523dbfe2"
+    } ],
+    "uid" : "7123df36f0c76d6e28365f2a55a68d5b"
+  } ],
+  "name" : "packages"
+}
