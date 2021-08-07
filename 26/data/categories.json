@@ -1,0 +1,91 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "children" : [ {
+        "name" : "test_decline_cookies",
+        "uid" : "8d06f3dea6128582",
+        "parentUid" : "e4a7d37349393b5a9e33d7e741170037",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628324417049,
+          "stop" : 1628324417049,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_logging_in",
+        "uid" : "f8f2ce20c5309522",
+        "parentUid" : "e4a7d37349393b5a9e33d7e741170037",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628324422270,
+          "stop" : 1628324422270,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_paginate",
+        "uid" : "8b3d8d392dec6312",
+        "parentUid" : "e4a7d37349393b5a9e33d7e741170037",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628324422310,
+          "stop" : 1628324422310,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_new_article",
+        "uid" : "4cad556b85c38118",
+        "parentUid" : "e4a7d37349393b5a9e33d7e741170037",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628324422350,
+          "stop" : 1628324422350,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_editing",
+        "uid" : "73439ea76f521ac5",
+        "parentUid" : "e4a7d37349393b5a9e33d7e741170037",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628324422389,
+          "stop" : 1628324422389,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete",
+        "uid" : "207c023e442ac705",
+        "parentUid" : "e4a7d37349393b5a9e33d7e741170037",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628324422429,
+          "stop" : 1628324422429,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4a7d37349393b5a9e33d7e741170037"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
