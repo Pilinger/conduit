@@ -1,0 +1,263 @@
+{
+  "uid" : "77ff0cc5c307655a",
+  "name" : "test_decline_cookies",
+  "fullName" : "python-tests.test_login#test_decline_cookies",
+  "historyId" : "0969137086e22f64fb5f0405e5288f6f",
+  "time" : {
+    "start" : 1628324799680,
+    "stop" : 1628324801801,
+    "duration" : 2121
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628324790738,
+      "stop" : 1628324799663,
+      "duration" : 8925
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f16f0a473b87685",
+      "name" : "log",
+      "source" : "8f16f0a473b87685.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "b0bfeadea7a50457",
+      "name" : "stderr",
+      "source" : "b0bfeadea7a50457.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-623"
+  }, {
+    "name" : "thread",
+    "value" : "3680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "8d06f3dea6128582",
+        "reportUrl" : "https://Pilinger.github.io/conduit/26//#testresult/8d06f3dea6128582",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1628324417049,
+          "stop" : 1628324417049,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ca818a5cda3a23de",
+        "reportUrl" : "https://Pilinger.github.io/conduit/25//#testresult/ca818a5cda3a23de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628107919754,
+          "stop" : 1628107921899,
+          "duration" : 2145
+        }
+      }, {
+        "uid" : "eaefe778f70d8804",
+        "reportUrl" : "https://Pilinger.github.io/conduit/24//#testresult/eaefe778f70d8804",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627765465736,
+          "stop" : 1627765467840,
+          "duration" : 2104
+        }
+      }, {
+        "uid" : "796fc9bf2aade467",
+        "reportUrl" : "https://Pilinger.github.io/conduit/23//#testresult/796fc9bf2aade467",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627764898849,
+          "stop" : 1627764900931,
+          "duration" : 2082
+        }
+      }, {
+        "uid" : "9499d63fb29cb2b1",
+        "reportUrl" : "https://Pilinger.github.io/conduit/22//#testresult/9499d63fb29cb2b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627763707356,
+          "stop" : 1627763709439,
+          "duration" : 2083
+        }
+      }, {
+        "uid" : "a43086b322dff8fb",
+        "reportUrl" : "https://Pilinger.github.io/conduit/21//#testresult/a43086b322dff8fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627763085014,
+          "stop" : 1627763087139,
+          "duration" : 2125
+        }
+      }, {
+        "uid" : "7e4783b0081577e6",
+        "reportUrl" : "https://Pilinger.github.io/conduit/20//#testresult/7e4783b0081577e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627756835600,
+          "stop" : 1627756837693,
+          "duration" : 2093
+        }
+      }, {
+        "uid" : "b161887213eeb4e2",
+        "reportUrl" : "https://Pilinger.github.io/conduit/19//#testresult/b161887213eeb4e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627756265944,
+          "stop" : 1627756268056,
+          "duration" : 2112
+        }
+      }, {
+        "uid" : "b9f40c5d508c911f",
+        "reportUrl" : "https://Pilinger.github.io/conduit/18//#testresult/b9f40c5d508c911f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627404926969,
+          "stop" : 1627404929028,
+          "duration" : 2059
+        }
+      }, {
+        "uid" : "b21fc23e3d9824bd",
+        "reportUrl" : "https://Pilinger.github.io/conduit/17//#testresult/b21fc23e3d9824bd",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 0 > 0\n +  where 0 = len([])",
+        "time" : {
+          "start" : 1627239824155,
+          "stop" : 1627239825175,
+          "duration" : 1020
+        }
+      }, {
+        "uid" : "1946121ff68c0dcf",
+        "reportUrl" : "https://Pilinger.github.io/conduit/15//#testresult/1946121ff68c0dcf",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 0 > 0\n +  where 0 = len([])",
+        "time" : {
+          "start" : 1627237581705,
+          "stop" : 1627237582800,
+          "duration" : 1095
+        }
+      }, {
+        "uid" : "dd8a832f5aff911e",
+        "reportUrl" : "https://Pilinger.github.io/conduit/14//#testresult/dd8a832f5aff911e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1627236914889,
+          "stop" : 1627236914889,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fcff2b315674dd69",
+        "reportUrl" : "https://Pilinger.github.io/conduit/13//#testresult/fcff2b315674dd69",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1627196033781,
+          "stop" : 1627196054794,
+          "duration" : 21013
+        }
+      }, {
+        "uid" : "c1ffb2910be082a2",
+        "reportUrl" : "https://Pilinger.github.io/conduit/12//#testresult/c1ffb2910be082a2",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1627195631451,
+          "stop" : 1627195642918,
+          "duration" : 11467
+        }
+      }, {
+        "uid" : "82800c965d1e8b16",
+        "reportUrl" : "https://Pilinger.github.io/conduit/11//#testresult/82800c965d1e8b16",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 0 > 0\n +  where 0 = len([])",
+        "time" : {
+          "start" : 1627194422003,
+          "stop" : 1627194423021,
+          "duration" : 1018
+        }
+      }, {
+        "uid" : "a421d1a865d7a425",
+        "reportUrl" : "https://Pilinger.github.io/conduit/10//#testresult/a421d1a865d7a425",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 0 > 0\n +  where 0 = len([])",
+        "time" : {
+          "start" : 1627162309561,
+          "stop" : 1627162310581,
+          "duration" : 1020
+        }
+      }, {
+        "uid" : "1116279231aaaf84",
+        "reportUrl" : "https://Pilinger.github.io/conduit/9//#testresult/1116279231aaaf84",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 0 > 0\n +  where 0 = len([])",
+        "time" : {
+          "start" : 1627162012744,
+          "stop" : 1627162013838,
+          "duration" : 1094
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "77ff0cc5c307655a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Aug 07 08:26:57 GMT 2021","Sat Aug 07 08:27:04 GMT 2021","6270","python-tests","test_login","","","","test_editing",""
+"passed","Sat Aug 07 08:26:41 GMT 2021","Sat Aug 07 08:26:48 GMT 2021","6438","python-tests","test_login","","","","test_logging_in",""
+"passed","Sat Aug 07 08:26:48 GMT 2021","Sat Aug 07 08:26:50 GMT 2021","2092","python-tests","test_login","","","","test_paginate",""
+"passed","Sat Aug 07 08:26:39 GMT 2021","Sat Aug 07 08:26:41 GMT 2021","2121","python-tests","test_login","","","","test_decline_cookies",""
+"passed","Sat Aug 07 08:26:50 GMT 2021","Sat Aug 07 08:26:57 GMT 2021","7626","python-tests","test_login","","","","test_new_article",""
+"passed","Sat Aug 07 08:27:10 GMT 2021","Sat Aug 07 08:27:17 GMT 2021","7423","python-tests","test_registration","","","","test_reg",""
+"passed","Sat Aug 07 08:27:04 GMT 2021","Sat Aug 07 08:27:08 GMT 2021","4334","python-tests","test_login","","","","test_delete",""
