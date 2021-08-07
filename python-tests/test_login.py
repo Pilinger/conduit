@@ -18,8 +18,8 @@ import os
 @pytest.fixture(scope='session')
 def driver():
     options = Options()
-    # options.add_argument('--headless')
-    # options.add_argument('--disable-gpu')
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
     d = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     # os.system('docker-compose up -d')
     d.get("http://localhost:1667/#/")
