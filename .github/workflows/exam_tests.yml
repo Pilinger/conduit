@@ -47,7 +47,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
           
-      - name: Allure Report action from Conduit
+      - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
         if: always()
         with:
