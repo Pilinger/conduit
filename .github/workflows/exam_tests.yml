@@ -9,6 +9,8 @@ on:
 jobs:
   Testing-Conduit:
     runs-on: ubuntu-latest
+    env:
+      HEADLESS: Headless
     
     steps:
       - name: Initialising check out
@@ -27,10 +29,6 @@ jobs:
       - name: Install Chrome
         run: |
           sudo apt install google-chrome-stable
-          
-      - name: Setting up HEADLESS environment variable
-        env:
-          HEADLESS: Headless
           
       - name: Starting Docker
         run: docker-compose up -d
