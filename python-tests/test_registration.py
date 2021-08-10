@@ -1,34 +1,14 @@
-import pytest
 import time
-# preparing selenium and chrome web driver manager
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
 # importing web driver waiting components
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# importing os for running docker-compose up -d
-import os
 
-
-# initialising driver
-@pytest.fixture(scope='session')
-def driver():
-    options = Options()
-    # checking if headless mode is needed
-    if os.getenv('HEADLESS'):
-        options.add_argument('--headless')
-        options.add_argument('--disable-gpu')
-    d = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-    # os.system('docker-compose up -d')
-    d.get("http://localhost:1667/#/")
-    return d
-
+#  calling fixture driver from conftest.py instead
 
 # CON_TC_001_registration
-# registrating with a new user
+# registration of a new user
 def test_reg(driver):
     time.sleep(1)
     # assigning the xpath texts
