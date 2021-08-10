@@ -1,0 +1,165 @@
+{
+  "uid" : "77bb9a74c1d0fee1",
+  "name" : "test_new_article",
+  "fullName" : "python-tests.test_login#test_new_article",
+  "historyId" : "db77d835458e5402820760b56eea4b18",
+  "time" : {
+    "start" : 1628588126394,
+    "stop" : 1628588134076,
+    "duration" : 7682
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628588105333,
+      "stop" : 1628588115580,
+      "duration" : 10247
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-552"
+  }, {
+    "name" : "thread",
+    "value" : "3684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "8aac67bb60c5969d",
+        "reportUrl" : "https://Pilinger.github.io/conduit/30//#testresult/8aac67bb60c5969d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628587611854,
+          "stop" : 1628587619482,
+          "duration" : 7628
+        }
+      }, {
+        "uid" : "df576d271b593ed",
+        "reportUrl" : "https://Pilinger.github.io/conduit/28//#testresult/df576d271b593ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628363379672,
+          "stop" : 1628363387200,
+          "duration" : 7528
+        }
+      }, {
+        "uid" : "39db55b22f65c2dc",
+        "reportUrl" : "https://Pilinger.github.io/conduit/27//#testresult/39db55b22f65c2dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628324810348,
+          "stop" : 1628324817974,
+          "duration" : 7626
+        }
+      }, {
+        "uid" : "4cad556b85c38118",
+        "reportUrl" : "https://Pilinger.github.io/conduit/26//#testresult/4cad556b85c38118",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1628324422350,
+          "stop" : 1628324422350,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9b0dafef5e71efcc",
+        "reportUrl" : "https://Pilinger.github.io/conduit/25//#testresult/9b0dafef5e71efcc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628107930400,
+          "stop" : 1628107940959,
+          "duration" : 10559
+        }
+      }, {
+        "uid" : "ce4df484af33373a",
+        "reportUrl" : "https://Pilinger.github.io/conduit/24//#testresult/ce4df484af33373a",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1627765476305,
+          "stop" : 1627765505471,
+          "duration" : 29166
+        }
+      }, {
+        "uid" : "9495b9291d8db0d5",
+        "reportUrl" : "https://Pilinger.github.io/conduit/23//#testresult/9495b9291d8db0d5",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1627764909357,
+          "stop" : 1627764926694,
+          "duration" : 17337
+        }
+      }, {
+        "uid" : "11f4e72ea4725643",
+        "reportUrl" : "https://Pilinger.github.io/conduit/22//#testresult/11f4e72ea4725643",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".form-control form-control-lg\"}\n  (Session info: headless chrome=92.0.4515.107)",
+        "time" : {
+          "start" : 1627763717835,
+          "stop" : 1627763722903,
+          "duration" : 5068
+        }
+      }, {
+        "uid" : "9d2ee304dd542366",
+        "reportUrl" : "https://Pilinger.github.io/conduit/21//#testresult/9d2ee304dd542366",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".form-control form-control-lg\"}\n  (Session info: headless chrome=92.0.4515.107)",
+        "time" : {
+          "start" : 1627763095686,
+          "stop" : 1627763096754,
+          "duration" : 1068
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "77bb9a74c1d0fee1.json",
+  "parameterValues" : [ ]
+}
