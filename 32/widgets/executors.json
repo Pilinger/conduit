@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Pilinger.github.io/conduit",
+  "buildOrder" : 32,
+  "buildName" : "GitHub Actions Run #1116107824",
+  "buildUrl" : "https://github.com/Pilinger/conduit/actions/runs/1116107824",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Pilinger.github.io/conduit/32/"
+} ]
