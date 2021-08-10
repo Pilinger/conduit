@@ -28,6 +28,10 @@ jobs:
         run: |
           sudo apt install google-chrome-stable
           
+      - name: Setting up HEADLESS environment variable
+        env:
+          HEADLESS: Headless
+          
       - name: Starting Docker
         run: docker-compose up -d
       
