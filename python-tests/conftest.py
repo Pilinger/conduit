@@ -1,3 +1,5 @@
+import time
+
 import pytest
 
 # preparing selenium and chrome web driver manager
@@ -19,6 +21,10 @@ def driver():
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
     d = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-    # os.system('docker-compose up -d')
+    # if headless mode is not defined, then it runs locally, docker needs to start up
+    if not os.getenv('HEADLESS'):
+        os.system('docker-compose up -d')
+        time.sleep(10)
     d.get("http://localhost:1667/#/")
+    time.sleep(2)
     return d

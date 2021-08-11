@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 # CON_TC_001_registration
 # registration of a new user
 def test_reg(driver):
-    time.sleep(1)
+    time.sleep(2)
     # assigning the xpath texts
     register_xpath = '//a[@href="#/register"]'
     user_xpath = '//input[@placeholder="Username"]'
