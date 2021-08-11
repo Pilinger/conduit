@@ -32,6 +32,10 @@ def test_reg(driver):
     driver.find_element_by_xpath(password_xpath).send_keys(password_str)
     time.sleep(1)
     driver.find_element_by_xpath('//form/button').click()
+    time.sleep(4)
+    assert (driver.find_element_by_xpath('//div[@class="swal-title"]').text == 'Welcome!')
+    assert (driver.find_element_by_xpath('//div[@class="swal-text"]').text == 'Your registration was successful!')
+    driver.find_element_by_xpath('//button[text()="OK"]').click()
     time.sleep(2)
     username = driver.find_element_by_xpath(user_li_xpath).text
     assert (username == user_name)
