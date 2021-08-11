@@ -15,6 +15,7 @@ import os
 @pytest.fixture(scope='session')
 def driver():
     """Passing Chrome Driver"""
+    URL = 'http://localhost:1667/#/'
     options = Options()
     # checking if headless mode is needed
     if os.getenv('HEADLESS'):
@@ -25,6 +26,6 @@ def driver():
     if not os.getenv('HEADLESS'):
         os.system('docker-compose up -d')
         time.sleep(10)
-    d.get("http://localhost:1667/#/")
+    d.get(URL)
     time.sleep(2)
     return d

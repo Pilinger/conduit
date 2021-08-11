@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from logout import logging_out
+
 
 #  calling fixture driver from conftest.py instead
 
@@ -149,3 +151,8 @@ def test_delete(driver):
         time.sleep(1)
         # searching the articles by title to check the article was deleted
         checking_page()
+
+
+# logging out after finishing the steps
+def test_logout(driver):
+    logging_out(driver)
