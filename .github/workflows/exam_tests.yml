@@ -11,7 +11,9 @@ on:
 jobs:
   Testing-Conduit:
     runs-on: ubuntu-latest
-    
+    env:
+      HEADLESS: Headless    
+      
     steps:
       - name: Initialising check out
         uses: actions/checkout@v2
@@ -38,8 +40,6 @@ jobs:
         shell: bash
         
       - name: Test with pytest
-        env:
-          HEADLESS: Headless
         run: |
           pytest --alluredir=allure-results
           
