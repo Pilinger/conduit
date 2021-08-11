@@ -1,6 +1,8 @@
 name: Pytest_conduit
 
 on:
+  workflow_dispatch:
+
   push:
     branches: [ master ]
   pull_request:
@@ -10,8 +12,8 @@ jobs:
   Testing-Conduit:
     runs-on: ubuntu-latest
     env:
-      HEADLESS: Headless
-    
+      HEADLESS: Headless    
+      
     steps:
       - name: Initialising check out
         uses: actions/checkout@v2
