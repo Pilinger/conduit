@@ -5,10 +5,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-#  calling fixture driver from conftest.py instead
-
 # CON_TC_001_registration
 # registration of a new user
+#  calling fixture driver from conftest.py
 def test_reg(driver):
     time.sleep(2)
     # assigning the xpath texts

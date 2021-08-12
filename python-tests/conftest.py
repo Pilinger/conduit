@@ -10,7 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import os
 
 
-# initialising driver
+# initialising driver for the whole session
 @pytest.fixture(scope='session')
 def driver():
     """Passing Chrome Driver"""

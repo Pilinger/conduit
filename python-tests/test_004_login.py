@@ -6,24 +6,22 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-#  calling fixture driver from conftest.py instead
-
-
 # CON_TC_002_login
 # logging in and testing if the username appears correctly
+#  calling fixture driver from conftest.py
 def test_logging_in(driver):
     time.sleep(1)
-    # assigning xpath strings, and test strings
+    # assigning xpath strings
     login_xpath = '//a[@href="#/login"]'
     email_xpath = '//input[@placeholder="Email"]'
     password_xpath = '//input[@placeholder="Password"]'
     user_li_xpath = '//*[@id="app"]/nav/div/ul/li[4]/a'
+    # test data
     user_name = 'testuser1'
     password_str = 'Abcd123$'
     email_end = '@example.com'
-    """Wait or no"""
+    # logging in and checking if the appearing username is correct
     login = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, login_xpath)))
-    # login = driver.find_element_by_xpath(login_xpath)
     login.click()
     time.sleep(1)
     driver.find_element_by_xpath(email_xpath).send_keys(f'{user_name}{email_end}')
@@ -34,8 +32,3 @@ def test_logging_in(driver):
     time.sleep(2)
     username = driver.find_element_by_xpath(user_li_xpath).text
     assert (username == user_name)
-
-
-
-
-

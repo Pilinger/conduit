@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 # clicking on decline button and checking if it disappears
+#  calling fixture driver from conftest.py
 def test_decline_cookies(driver):
     time.sleep(1)
     decline_xpath = '//div[@class="cookie__bar__buttons"]/button'
