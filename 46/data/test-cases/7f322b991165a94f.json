@@ -1,0 +1,97 @@
+{
+  "uid" : "7f322b991165a94f",
+  "name" : "test_delete",
+  "fullName" : "python-tests.test_009_delete_article#test_delete",
+  "historyId" : "412f9e82dc3f843b2687ac5c1f4bdb48",
+  "time" : {
+    "start" : 1628796689953,
+    "stop" : 1628796694246,
+    "duration" : 4293
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628796632552,
+      "stop" : 1628796646733,
+      "duration" : 14181
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_009_delete_article"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-628"
+  }, {
+    "name" : "thread",
+    "value" : "3647-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_009_delete_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4f3d5247883cc5e2",
+        "reportUrl" : "https://Pilinger.github.io/conduit/45//#testresult/4f3d5247883cc5e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628755897447,
+          "stop" : 1628755901724,
+          "duration" : 4277
+        }
+      }, {
+        "uid" : "b24eca17ac463e09",
+        "reportUrl" : "https://Pilinger.github.io/conduit/44//#testresult/b24eca17ac463e09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628751577520,
+          "stop" : 1628751581797,
+          "duration" : 4277
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7f322b991165a94f.json",
+  "parameterValues" : [ ]
+}
