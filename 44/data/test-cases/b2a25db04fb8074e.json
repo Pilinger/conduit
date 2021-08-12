@@ -1,0 +1,68 @@
+{
+  "uid" : "b2a25db04fb8074e",
+  "name" : "test_new_article",
+  "fullName" : "python-tests.test_007_new_article#test_new_article",
+  "historyId" : "bdaa549a54242e0c2af506fbdf351b41",
+  "time" : {
+    "start" : 1628751563740,
+    "stop" : 1628751571287,
+    "duration" : 7547
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628751525677,
+      "stop" : 1628751535366,
+      "duration" : 9689
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_007_new_article"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-289"
+  }, {
+    "name" : "thread",
+    "value" : "3804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_007_new_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2a25db04fb8074e.json",
+  "parameterValues" : [ ]
+}

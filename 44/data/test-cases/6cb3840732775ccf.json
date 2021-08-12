@@ -1,0 +1,110 @@
+{
+  "uid" : "6cb3840732775ccf",
+  "name" : "test_decline_cookies",
+  "fullName" : "python-tests.test_001_decline_cookies#test_decline_cookies",
+  "historyId" : "3c41adbc70e7d957ffd4aa9452946255",
+  "time" : {
+    "start" : 1628751535382,
+    "stop" : 1628751537490,
+    "duration" : 2108
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628751525677,
+      "stop" : 1628751535366,
+      "duration" : 9689
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "686b0e2aa22e37e0",
+      "name" : "log",
+      "source" : "686b0e2aa22e37e0.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "6a7be17ced26f425",
+      "name" : "stderr",
+      "source" : "6a7be17ced26f425.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_001_decline_cookies"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-289"
+  }, {
+    "name" : "thread",
+    "value" : "3804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_001_decline_cookies"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "10c156385d0fadbb",
+        "reportUrl" : "https://Pilinger.github.io/conduit/43//#testresult/10c156385d0fadbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628713041183,
+          "stop" : 1628713043306,
+          "duration" : 2123
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6cb3840732775ccf.json",
+  "parameterValues" : [ ]
+}

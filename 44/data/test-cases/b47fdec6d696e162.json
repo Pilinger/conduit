@@ -1,0 +1,88 @@
+{
+  "uid" : "b47fdec6d696e162",
+  "name" : "test_logging_in",
+  "fullName" : "python-tests.test_004_login#test_logging_in",
+  "historyId" : "33aecab2c98a58f0e566155afcdbcc4d",
+  "time" : {
+    "start" : 1628751555375,
+    "stop" : 1628751561641,
+    "duration" : 6266
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628751525677,
+      "stop" : 1628751535366,
+      "duration" : 9689
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_004_login"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-289"
+  }, {
+    "name" : "thread",
+    "value" : "3804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_004_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5922f40f76abc289",
+        "reportUrl" : "https://Pilinger.github.io/conduit/43//#testresult/5922f40f76abc289",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628713059204,
+          "stop" : 1628713065511,
+          "duration" : 6307
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b47fdec6d696e162.json",
+  "parameterValues" : [ ]
+}
