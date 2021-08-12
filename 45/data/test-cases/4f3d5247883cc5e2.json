@@ -1,0 +1,88 @@
+{
+  "uid" : "4f3d5247883cc5e2",
+  "name" : "test_delete",
+  "fullName" : "python-tests.test_009_delete_article#test_delete",
+  "historyId" : "412f9e82dc3f843b2687ac5c1f4bdb48",
+  "time" : {
+    "start" : 1628755897447,
+    "stop" : 1628755901724,
+    "duration" : 4277
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628755839925,
+      "stop" : 1628755855149,
+      "duration" : 15224
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_009_delete_article"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-496"
+  }, {
+    "name" : "thread",
+    "value" : "3727-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_009_delete_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b24eca17ac463e09",
+        "reportUrl" : "https://Pilinger.github.io/conduit/44//#testresult/b24eca17ac463e09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628751577520,
+          "stop" : 1628751581797,
+          "duration" : 4277
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4f3d5247883cc5e2.json",
+  "parameterValues" : [ ]
+}
