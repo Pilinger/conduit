@@ -1,0 +1,74 @@
+{
+  "uid" : "8d1d44eb2483baef",
+  "name" : "test_posting_from_file",
+  "fullName" : "python-tests.test_010_posting_from_file#test_posting_from_file",
+  "historyId" : "c7b7fb2c3e278c4e218851ea01ea1a4a",
+  "time" : {
+    "start" : 1628842633569,
+    "stop" : 1628842633569,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'python-tests/test_datanew_articles.csv'",
+  "statusTrace" : "driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"752ada6b2218b3b9f41cb05f08085ad0\")>\n\n    def test_posting_from_file(driver):\n        def clear_and_send_keys(element, string):\n            element.clear()\n            time.sleep(1)\n            element.send_keys(string)\n            time.sleep(1)\n    \n        def post_article(title, about, text, tags):\n            driver.find_element_by_xpath(new_article_xpath).click()\n            time.sleep(1)\n            # gathering the inputs and buttons\n            title_input = driver.find_element_by_xpath('//input[@class=\"form-control form-control-lg\"]')\n            about_input = driver.find_element_by_xpath('//input[@class=\"form-control\"]')\n            text_input = driver.find_element_by_xpath('//textarea')\n            tags_input = driver.find_element_by_xpath('//input[@class=\"ti-new-tag-input ti-valid\"]')\n            publish_article_button = driver.find_element_by_tag_name('button')\n            # assigning values to the inputs, and publishing the Article\n            clear_and_send_keys(title_input, title)\n            clear_and_send_keys(about_input, about)\n            clear_and_send_keys(text_input, text)\n            clear_and_send_keys(tags_input, tags)\n            publish_article_button.click()\n            time.sleep(1)\n    \n        def check_article(title, about, text, tag):\n            assert (title == driver.find_element_by_tag_name('h1').text)\n            assert (text == driver.find_element_by_tag_name('p').text)\n            tags = driver.find_elements_by_xpath('//a[@class=\"tag-pill tag-default\"]')\n            for i in range(len(tags)):\n                assert (tags[i].text == tag)\n    \n        # assigning test data\n        if os.getenv('HEADLESS'):  # if runs on Github\n            directory = 'python-tests/test_data'\n        else:  # if runs locally\n            directory = 'test_data/'\n        filename = 'new_articles.csv'\n        new_article_xpath = '//a[@href=\"#/editor\"]'\n    \n>       with open(directory + filename, 'r', encoding='utf-8', newline='') as csv_file:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'python-tests/test_datanew_articles.csv'\n\npython-tests/test_010_posting_from_file.py:47: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628842579048,
+      "stop" : 1628842587238,
+      "duration" : 8190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_010_posting_from_file"
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-270"
+  }, {
+    "name" : "thread",
+    "value" : "3694-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_010_posting_from_file"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8d1d44eb2483baef.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'python-tests/test_datanew_articles.csv'",
+      "children" : [ {
+        "name" : "test_posting_from_file",
+        "uid" : "8d1d44eb2483baef",
+        "parentUid" : "16cf14bdfd00c2cafd11e6a9f8957acc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628842633569,
+          "stop" : 1628842633569,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "16cf14bdfd00c2cafd11e6a9f8957acc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
