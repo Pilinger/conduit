@@ -38,7 +38,7 @@ def test_posting_from_file(driver):
 
     # assigning test data
     if os.getenv('HEADLESS'):  # if runs on Github
-        directory = 'python-tests/test_data'
+        directory = 'python-tests/test_data/'
     else:  # if runs locally
         directory = 'test_data/'
     filename = 'new_articles.csv'
