@@ -3,6 +3,7 @@ import time
 
 # CON_TC_008_delete
 # deleting the Newly Edited Article
+#  calling fixture driver from conftest.py
 def test_delete(driver):
     def get_headers():
         return driver.find_elements_by_xpath('//div[@class="article-preview"]/a/h1')

@@ -3,6 +3,7 @@ import time
 
 # CON_TC_007_edit
 # Editing the newly posted Article
+#  calling fixture driver from conftest.py
 def test_editing(driver):
     def get_textarea():
         return driver.find_element_by_tag_name('textarea')

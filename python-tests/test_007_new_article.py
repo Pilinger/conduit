@@ -3,6 +3,7 @@ import time
 
 # CON_TC_005_post
 # posting a New Article, and testing if it appears
+#  calling fixture driver from conftest.py
 def test_new_article(driver):
     # data for posting
     article_title_str = 'This is a test article.'
