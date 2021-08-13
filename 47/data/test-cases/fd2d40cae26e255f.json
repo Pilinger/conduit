@@ -1,0 +1,106 @@
+{
+  "uid" : "fd2d40cae26e255f",
+  "name" : "test_new_article",
+  "fullName" : "python-tests.test_007_new_article#test_new_article",
+  "historyId" : "bdaa549a54242e0c2af506fbdf351b41",
+  "time" : {
+    "start" : 1628842136931,
+    "stop" : 1628842144484,
+    "duration" : 7553
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628842099851,
+      "stop" : 1628842108542,
+      "duration" : 8691
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_007_new_article"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-628"
+  }, {
+    "name" : "thread",
+    "value" : "3663-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_007_new_article"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "eaf19e9032673d89",
+        "reportUrl" : "https://Pilinger.github.io/conduit/46//#testresult/eaf19e9032673d89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628796676083,
+          "stop" : 1628796683699,
+          "duration" : 7616
+        }
+      }, {
+        "uid" : "5ef62d8ad3fce1fb",
+        "reportUrl" : "https://Pilinger.github.io/conduit/45//#testresult/5ef62d8ad3fce1fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628755883654,
+          "stop" : 1628755891223,
+          "duration" : 7569
+        }
+      }, {
+        "uid" : "b2a25db04fb8074e",
+        "reportUrl" : "https://Pilinger.github.io/conduit/44//#testresult/b2a25db04fb8074e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628751563740,
+          "stop" : 1628751571287,
+          "duration" : 7547
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fd2d40cae26e255f.json",
+  "parameterValues" : [ ]
+}

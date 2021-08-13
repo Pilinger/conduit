@@ -1,0 +1,137 @@
+{
+  "uid" : "e5c6089d0fcbb0fb",
+  "name" : "test_decline_cookies",
+  "fullName" : "python-tests.test_001_decline_cookies#test_decline_cookies",
+  "historyId" : "3c41adbc70e7d957ffd4aa9452946255",
+  "time" : {
+    "start" : 1628842108558,
+    "stop" : 1628842110683,
+    "duration" : 2125
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1628842099851,
+      "stop" : 1628842108542,
+      "duration" : 8691
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f51450d7042218eb",
+      "name" : "log",
+      "source" : "f51450d7042218eb.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "35ac2fe1ed3f5b39",
+      "name" : "stderr",
+      "source" : "35ac2fe1ed3f5b39.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python-tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_001_decline_cookies"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-628"
+  }, {
+    "name" : "thread",
+    "value" : "3663-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python-tests.test_001_decline_cookies"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "831bcf3418a133f3",
+        "reportUrl" : "https://Pilinger.github.io/conduit/46//#testresult/831bcf3418a133f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628796646809,
+          "stop" : 1628796649051,
+          "duration" : 2242
+        }
+      }, {
+        "uid" : "8130eed1d31e6eb3",
+        "reportUrl" : "https://Pilinger.github.io/conduit/45//#testresult/8130eed1d31e6eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628755855199,
+          "stop" : 1628755857331,
+          "duration" : 2132
+        }
+      }, {
+        "uid" : "6cb3840732775ccf",
+        "reportUrl" : "https://Pilinger.github.io/conduit/44//#testresult/6cb3840732775ccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628751535382,
+          "stop" : 1628751537490,
+          "duration" : 2108
+        }
+      }, {
+        "uid" : "10c156385d0fadbb",
+        "reportUrl" : "https://Pilinger.github.io/conduit/43//#testresult/10c156385d0fadbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628713041183,
+          "stop" : 1628713043306,
+          "duration" : 2123
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e5c6089d0fcbb0fb.json",
+  "parameterValues" : [ ]
+}
