@@ -49,3 +49,6 @@ def test_posting_from_file(driver):
         for row in reader:
             post_article(row['title'], row['about'], row['text'], row['tags'])
             check_article(row['title'], row['about'], row['text'], row['tags'])
+
+    # clicking the Home button after last post created
+    driver.find_element_by_xpath('//ul/li/a[@href="#/"]').click()
