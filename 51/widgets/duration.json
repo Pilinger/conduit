@@ -1,0 +1,111 @@
+[ {
+  "uid" : "fd255bbfdef11cdc",
+  "name" : "test_paginate",
+  "time" : {
+    "start" : 1629047034353,
+    "stop" : 1629047036436,
+    "duration" : 2083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac81ed3d421b5cd1",
+  "name" : "test_list_articles",
+  "time" : {
+    "start" : 1629047034342,
+    "stop" : 1629047034351,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71bf8ff018797514",
+  "name" : "test_posting_from_file",
+  "time" : {
+    "start" : 1629047054475,
+    "stop" : 1629047075383,
+    "duration" : 20908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca2d458224fccfd1",
+  "name" : "test_decline_cookies",
+  "time" : {
+    "start" : 1629047008352,
+    "stop" : 1629047010427,
+    "duration" : 2075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a1d5f29141cc2bf",
+  "name" : "test_editing",
+  "time" : {
+    "start" : 1629047043979,
+    "stop" : 1629047050202,
+    "duration" : 6223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a28cd534c5d0b70",
+  "name" : "test_delete",
+  "time" : {
+    "start" : 1629047050204,
+    "stop" : 1629047054473,
+    "duration" : 4269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13bab7f127ba5b83",
+  "name" : "test_reg",
+  "time" : {
+    "start" : 1629047010430,
+    "stop" : 1629047022861,
+    "duration" : 12431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc2373cff8768ea8",
+  "name" : "test_writing_to_file",
+  "time" : {
+    "start" : 1629047075388,
+    "stop" : 1629047076662,
+    "duration" : 1274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94f2c496c0ba88e8",
+  "name" : "test_new_article",
+  "time" : {
+    "start" : 1629047036439,
+    "stop" : 1629047043977,
+    "duration" : 7538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "724d5240d4795160",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1629047022863,
+    "stop" : 1629047028075,
+    "duration" : 5212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83adbe8e61d55f98",
+  "name" : "test_logging_in",
+  "time" : {
+    "start" : 1629047028077,
+    "stop" : 1629047034339,
+    "duration" : 6262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
